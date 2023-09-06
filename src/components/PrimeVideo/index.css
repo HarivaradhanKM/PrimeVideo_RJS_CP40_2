@@ -1,0 +1,33 @@
+.prime-video-container {
+  background-color: #000;
+  padding-bottom: 32px;
+  min-height: 100vh;
+}
+
+.image {
+  width: 100%;
+  height: 30vh;
+}
+
+.movies-container {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.movies-heading {
+  color: #fff;
+  font: 600 normal 20px/1.3 Roboto;
+  margin-top: 32px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .movies-container {
+    max-width: 1110px;
+  }
+
+  .movies-heading {
+    font-size: 32px;
+  }
+}
